@@ -1,0 +1,129 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    color: #101a0f;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #284427;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo h1 {
+    color: #FFFFFF;
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a.active {
+    text-decoration: underline;
+}
+
+.hero {
+    background: url('images/background.jpg') no-repeat center center/cover;
+    text-align: center;
+    padding: 100px 20px;
+    color: #FFFFFF;
+}
+
+.hero-content h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #11602e;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: 0.3s;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+    background-color: #0e4c25;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+.feature {
+    text-align: center;
+    width: 30%;
+}
+
+.feature img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #284427;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Profil Menüsü */
+.profile-menu {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.profile-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-menu ul li {
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.profile-menu ul li:hover {
+    background-color: #f4f4f4;
+}
